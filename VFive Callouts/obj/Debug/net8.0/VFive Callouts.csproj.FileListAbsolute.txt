@@ -1,0 +1,15 @@
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\bin\Debug\net8.0\VFive Callouts.deps.json
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\bin\Debug\net8.0\VFive Callouts.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\bin\Debug\net8.0\VFive Callouts.pdb
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\bin\Debug\net8.0\LSPD First Response.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\bin\Debug\net8.0\RagePluginHookSDK.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.csproj.AssemblyReference.cache
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.AssemblyInfoInputs.cache
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.AssemblyInfo.cs
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.csproj.CoreCompileInputs.cache
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Ca.4E5C556E.Up2Date
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\refint\VFive Callouts.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.pdb
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\ref\VFive Callouts.dll
