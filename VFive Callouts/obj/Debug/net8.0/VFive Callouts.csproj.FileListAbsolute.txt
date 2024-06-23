@@ -13,3 +13,4 @@ C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net
 C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\refint\VFive Callouts.dll
 C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.pdb
 C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\ref\VFive Callouts.dll
+C:\Users\tony\Desktop\VFive Callouts\VFive Callouts\VFive Callouts\obj\Debug\net8.0\VFive Callouts.sourcelink.json

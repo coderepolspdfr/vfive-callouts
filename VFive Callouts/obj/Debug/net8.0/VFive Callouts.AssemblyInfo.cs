@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VFive Callouts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0fb18394d107c2287bc4c51564ee00eff1c07f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VFive Callouts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VFive Callouts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

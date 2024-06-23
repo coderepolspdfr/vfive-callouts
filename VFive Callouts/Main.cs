@@ -1,69 +1,35 @@
 ﻿using LSPD_First_Response;
 using LSPD_First_Response.Mod.API;
 using Rage;
-using System.Reflection;
+using VFive_Callouts.Callouts;
 
 namespace VFive_Callouts
 {
     public class Main : Plugin
     {
-        public string pluginversion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        public override void Finally() { }
+
         public override void Initialize()
         {
-            Functions.OnOnDutyStateChanged += OnOnDutyStateChangedHandler;
-            Game.LogTrivial("\n-------------------------- VFive Callouts --------------------------\nVersion: " + pluginversion);
-
-            AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(LSPDFRResolveEventHandler);
+            Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
         }
-
-        public override void Finally()
+        static void Functions_OnOnDutyStateChanged(bool onDuty)
         {
-            Game.LogTrivial("VFive Callouts cleaned up its own shit.");
+            if (onDuty)
+                GameFiber.StartNew(delegate
+                {
+                    RegisterCallouts();
+                });
         }
-
-        private static void OnOnDutyStateChangedHandler(bool duty)
-        {
-            if (duty)
-            {
-                RegisterCallouts();
-                Game.DisplayNotification("VFive Callouts: \nVersion:" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + "\nStatus: Loaded!");
-            }
-        }
-
         private static void RegisterCallouts()
         {
-            Functions.RegisterCallout(typeof(Callouts.HighSpeedChase));
-        }
-
-        public static Assembly LSPDFRResolveEventHandler(object sender, ResolveEventArgs args)
-        {
-            foreach (Assembly assembly in Functions.GetAllUserPlugins())
-            {
-                if (args.Name.ToLower().Contains(assembly.GetName().Name.ToLower()))
-                {
-                    return assembly;
-                }
-            }
-
-            return null;
-        }
-
-        public static bool isLSPDFRPluginRunning(string Plugin, Version minver = null)
-        {
-            foreach (Assembly assembly in Functions.GetAllUserPlugins())
-            {
-                AssemblyName an = assembly.GetName();
-
-                if (an.Name.ToLower() == Plugin.ToLower())
-                {
-                    if (minver == null || an.Version.CompareTo(minver) >= 0)
-                    {
-                        return true;
-                    }
-                }
-            }
-
-            return false;
+            Game.Console.Print();
+            Game.Console.Print("================================================== VFive Callouts ===================================================");
+            Game.Console.Print();
+            Functions.RegisterCallout(typeof(Assault));
+            Game.Console.Print("[LOG]: Loaded Callouts");
+            Game.Console.Print();
+            Game.Console.Print("================================================== VFive Callouts ===================================================");
         }
     }
 }

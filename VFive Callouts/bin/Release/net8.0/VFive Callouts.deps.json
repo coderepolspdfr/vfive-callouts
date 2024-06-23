@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VFive Callouts/1.0.0": {
+        "dependencies": {
+          "LSPD First Response": "0.4.8757.33971",
+          "RagePluginHookSDK": "0.0.0.0",
+          "StopThePed": "4.9.5.2"
+        },
+        "runtime": {
+          "VFive Callouts.dll": {}
+        }
+      },
+      "LSPD First Response/0.4.8757.33971": {
+        "runtime": {
+          "LSPD First Response.dll": {
+            "assemblyVersion": "0.4.8757.33971",
+            "fileVersion": "0.4.9.0"
+          }
+        }
+      },
+      "RagePluginHookSDK/0.0.0.0": {
+        "runtime": {
+          "RagePluginHookSDK.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.95.1310.16360"
+          }
+        }
+      },
+      "StopThePed/4.9.5.2": {
+        "runtime": {
+          "StopThePed.dll": {
+            "assemblyVersion": "4.9.5.2",
+            "fileVersion": "4.9.5.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VFive Callouts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LSPD First Response/0.4.8757.33971": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RagePluginHookSDK/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StopThePed/4.9.5.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
