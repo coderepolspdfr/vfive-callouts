@@ -4,7 +4,7 @@ using LSPD_First_Response.Mod.API;
 using LSPD_First_Response.Engine;
 using StopThePed;
 
-namespace VFive_Callouts.Callouts
+namespace VFiveCallouts.Callouts
 {
     [CalloutInfo("Simple Assault", CalloutProbability.Medium)]
 

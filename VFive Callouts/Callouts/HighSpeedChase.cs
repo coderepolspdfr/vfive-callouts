@@ -2,7 +2,7 @@
 using LSPD_First_Response.Mod.Callouts;
 using LSPD_First_Response.Mod.API;
 
-namespace VFive_Callouts.Callouts
+namespace VFiveCallouts.Callouts
 {
     [CalloutInfo("HighSpeedChase", CalloutProbability.Medium)]
 

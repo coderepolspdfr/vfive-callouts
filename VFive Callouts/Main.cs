@@ -1,9 +1,9 @@
 ﻿using LSPD_First_Response;
 using LSPD_First_Response.Mod.API;
 using Rage;
-using VFive_Callouts.Callouts;
+using VFiveCallouts.Callouts;
 
-namespace VFive_Callouts
+namespace VFiveCallouts
 {
     public class Main : Plugin
     {
